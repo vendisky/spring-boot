@@ -1,5 +1,5 @@
 server:
-  port: 8080
+  port: 8088
 
 spring:
   datasource:
@@ -12,9 +12,9 @@ spring:
       #mysql驱动
       driver-class-name: com.mysql.jdbc.Driver
       #基本属性
-      url: jdbc:mysql://127.0.0.1:3306/springboot?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true
+      url: jdbc:mysql://61.171.96.47:3306/springboot?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true&autoReconnect=true&failOverReadOnly=false
       username: root
-      password: root
+      password: Onnt97@@##
       #配置初始化大小/最小/最大
       initial-size: 1
       min-idle: 1
